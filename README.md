@@ -113,6 +113,7 @@ Windows 版本：
 - [闭源包说明](docs/trial-package.md)
 - [第一位灰度用户测试清单](docs/first-beta-test.zh-CN.md)
 - [GitHub 发布步骤](docs/github-publish.zh-CN.md)
+- [GitHub 仓库设置建议](docs/repository-settings.zh-CN.md)
 - [FAQ](docs/faq.md)
 - [隐私说明](docs/privacy.md)
 - [演示计划](docs/demo-plan.md)
