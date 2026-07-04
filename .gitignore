@@ -1,0 +1,45 @@
+# Keep the public showcase free of private implementation and model data.
+
+# Core/private source
+src/
+tools/
+runtime_start_scripts/
+*.py
+*.ps1
+*.toml
+*.json
+
+# Marc model, solver, and post files
+*.mud
+*.mfd
+*.dat
+*.t16
+*.t19
+*.out
+*.sts
+*.log
+*.proc
+
+# Private packages and generated archives
+*.zip
+*.7z
+*.rar
+*.exe
+*.msi
+*.whl
+dist/
+build/
+
+# Local/sensitive folders
+projects/
+private_cases/
+runtime/
+.marc_mcp/
+.codex/
+.agents/
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
