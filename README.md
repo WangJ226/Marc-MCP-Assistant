@@ -1,5 +1,7 @@
 # Marc MCP Assistant
 
+Language: [中文](README.zh-CN.md) | **English** | [日本語](README.ja.md)
+
 Marc MCP Assistant is a Windows-first, closed-source workflow assistant for
 MSC Marc/Mentat users who want to connect Codex or other AI agents to a
 controlled local Marc workflow.
