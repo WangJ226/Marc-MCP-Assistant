@@ -1,7 +1,10 @@
 # Trial Installation
 
-This public document explains the expected flow. The actual package may include
-more specific instructions.
+This public document explains the expected private trial flow. The actual
+package may include more specific instructions.
+
+There is no public GitHub Release at this stage. First contact the author, then
+use this page after you receive the private Windows package.
 
 ## Requirements
 
@@ -34,6 +37,21 @@ The expected license location is:
 If the zip extracts into nested folders, use the folder that actually contains
 the `.exe`.
 
+## What To Send Back For License
+
+After the status check, send only the machine code and basic context requested by
+the author. Do not send full model files at this stage.
+
+Useful context:
+
+- Marc/Mentat version;
+- Windows version;
+- research or engineering field;
+- current problem;
+- solver exit number, if any;
+- whether you are applying for trial, diagnosis, monthly use, or project
+  support.
+
 ## Codex Configuration
 
 After receiving the package and license, use:
@@ -43,6 +61,9 @@ After receiving the package and license, use:
 The most important verification is that `check_mcp_process_env` reports the
 trial executable from the folder you just extracted.
 
+If Codex reports another executable path, old package path, or developer source
+directory, stop and fix the MCP configuration before running any Marc workflow.
+
 ## Current Distribution
 
 At the current private beta stage, the Windows package is provided by request.
@@ -50,6 +71,16 @@ There is no public GitHub Release yet.
 
 If public GitHub Releases are enabled later, users will still need to contact the
 author for a trial or paid license.
+
+## Safe Testing Advice
+
+- Use backup, example, or non-critical models first.
+- Keep your original Marc/Mentat model files unchanged until the workflow is
+  verified.
+- Read the command output carefully before allowing any workflow that writes
+  files.
+- Do not upload confidential models or license files unless there is an explicit
+  support agreement.
 
 ## Feedback
 

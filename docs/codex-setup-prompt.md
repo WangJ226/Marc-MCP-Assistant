@@ -3,8 +3,12 @@
 After you receive the private Windows package and `license.json`, you can ask
 Codex to help you configure the local MCP connection.
 
-Copy this prompt into a new Codex chat. Replace the paths with your own package
-folder.
+Copy this prompt into a new Codex chat. Replace the package folder with the
+folder on your own computer that actually contains the trial executable.
+
+If you only have the GitHub link and have not received the private package yet,
+contact the author first. This public repository does not currently provide a
+downloadable package.
 
 ```text
 I have received a private Marc MCP Assistant Windows trial package.
@@ -31,6 +35,7 @@ Please:
 5. After I add the config and restart Codex, call check_mcp_process_env.
 6. Confirm that sys_executable points to this trial exe, not another internal or old path.
 7. Then run a basic Marc/Mentat environment check.
+8. Do not run any workflow that modifies my Marc model files until I explicitly approve it.
 ```
 
 ## Expected Codex MCP Setup Shape
@@ -56,3 +61,15 @@ package folder you received.
 
 If it points to another folder, old package, or developer path, stop and fix the
 Codex MCP config before running Marc workflows.
+
+Then verify:
+
+```text
+license status
+package version
+local Marc/Mentat environment
+basic MCP tool response
+```
+
+Only after these checks pass should you try any model-inspection,
+diagnosis, or post-processing workflow.
