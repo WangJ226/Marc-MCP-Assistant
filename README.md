@@ -2,53 +2,77 @@
 
 Language: [中文](README.zh-CN.md) | **English** | [日本語](README.ja.md)
 
-Marc MCP Assistant is a Windows-first, closed-source workflow assistant for
-MSC Marc/Mentat users who want to connect Codex or other AI agents to a
-controlled local Marc workflow.
+Marc MCP Assistant is a Windows-first, closed-source workflow assistant for MSC
+Marc/Mentat users. It connects Codex or other AI agents to a controlled local
+Marc workflow through MCP, so Marc-related checks, diagnosis clues, and selected
+post-processing tasks can be handled in a more traceable way.
 
 It is not an official MSC/Hexagon product. It does not include Marc/Mentat, does
 not provide Marc/Mentat licenses, and does not replace engineering judgment.
 
-## Current Private Package
-
-The current private trial line is:
+## Current Version Status
 
 ```text
-MarcMCP trial 2.5.0-trial
+Current private trial line: MarcMCP trial 2.5.0-trial
 Platform: Windows
-Delivery: private request only
+Stage: private beta
+Delivery: contact author first, then private package + trial license
 Use with: local MSC Marc/Mentat + Codex MCP
+Public GitHub Release: not open yet
 ```
 
-GitHub Releases are not open yet. If your use case fits the current version, the
-trial package and machine-bound trial license can be provided after contact.
+The current version is already suitable for guided private trials. New features
+are still under active development, and real Marc/Mentat user feedback is
+welcome.
 
-## What It Can Help With
+## Supported In The Current Version
 
-Many Marc users lose time not only on theory, but on repeated and fragile
-workflow details:
+The current closed package focuses on practical Marc workflow assistance:
 
-- connect Codex to a local Marc/Mentat workflow through a controlled MCP server;
-- check whether the local Marc/Mentat environment is visible to the assistant;
-- confirm that Codex is using the delivered closed package, not an old or wrong path;
-- organize model-inspection clues such as sets, links, boundaries, loads, and materials;
-- collect solver-failure clues from logs, input files, and exit numbers;
+- start a controlled local MCP server for Codex;
+- check package status and license status;
+- show the machine code needed for trial licensing;
+- verify that Codex is using the delivered package path, not an old or wrong
+  executable;
+- check whether the local MSC Marc/Mentat environment can be detected;
+- initialize a local Marc project workspace for assisted workflows;
+- run basic MCP doctor/environment checks;
+- help organize model-inspection clues such as sets, links, boundaries, loads,
+  and materials;
+- help collect solver-failure clues from logs, input files, and exit numbers;
 - assist selected `.t16` result extraction and summary workflows;
 - keep a clearer evidence trail for thesis, research, and engineering projects;
-- provide a structured feedback path when you need support or diagnosis.
+- provide a structured feedback path when support or diagnosis is needed.
 
-The goal is to make these local workflows more traceable, repeatable, and easier
-to discuss with AI assistance.
+## Problems It Is Designed To Reduce
 
-## Typical Pain Points
+Many Marc users lose time on repeated, fragile workflow details rather than on
+the theory itself. This project is designed to reduce:
 
-You may want to try it if you often think:
+- repeated manual checking of Mentat model details;
+- confusion about which executable or workflow Codex is actually using;
+- scattered solver-failure evidence across logs, input files, and screenshots;
+- manual post-processing records that are hard to reproduce later;
+- unclear traces of what was checked, changed, extracted, and discussed;
+- difficulty explaining Marc workflow problems to an AI assistant or support
+  person.
 
-- "I want Codex to help with Marc, but I need a controlled local connection."
-- "I keep checking the same Mentat model details again and again."
-- "Solver failure clues are scattered across logs and input files."
-- "I need a cleaner record of what was checked, changed, and extracted."
-- "I want post-processing and diagnosis to be less manual."
+The goal is not to make Marc automatic. The goal is to make local Marc workflows
+more controlled, traceable, repeatable, and easier to discuss with AI assistance.
+
+## In Active Development
+
+Planned and ongoing work includes:
+
+- broader Marc/Mentat workflow coverage;
+- better solver-failure diagnosis templates;
+- more post-processing helpers for common `.t16` workflows;
+- clearer multilingual guidance in Chinese, English, and Japanese;
+- improved trial, feedback, and support workflow;
+- private-package updates based on real user problems.
+
+If your field has special Marc/Mentat workflows, feedback is welcome. Real user
+problems are the most useful input for deciding what to improve next.
 
 ## Who It Is For
 
@@ -147,6 +171,7 @@ responsibility.
 ## English Summary
 
 Marc MCP Assistant is a Windows-first closed-source assistant for controlled
-AI-assisted MSC Marc/Mentat workflows. Trial access is manual and license-bound.
-Please contact the author with your Marc version, Windows version, field, and
-current problem.
+AI-assisted MSC Marc/Mentat workflows. The current private package is
+`MarcMCP trial 2.5.0-trial`. Trial access is manual and license-bound. Please
+contact the author with your Marc version, Windows version, field, and current
+problem.
