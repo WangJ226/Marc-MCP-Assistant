@@ -9,32 +9,46 @@ controlled local Marc workflow.
 It is not an official MSC/Hexagon product. It does not include Marc/Mentat, does
 not provide Marc/Mentat licenses, and does not replace engineering judgment.
 
-## Current Stage
+## Current Private Package
 
-The project is currently in a private beta stage.
+The current private trial line is:
 
-- Public GitHub: product introduction, trial application, installation notes,
-  privacy notes, and demo planning.
-- Private delivery: Windows closed-source trial package and machine-bound trial
-  license.
-- GitHub Releases: not available yet. Trial packages are provided by request
-  only.
+```text
+MarcMCP trial 2.5.0-trial
+Platform: Windows
+Delivery: private request only
+Use with: local MSC Marc/Mentat + Codex MCP
+```
 
-## What Problems It Tries To Solve
+GitHub Releases are not open yet. If your use case fits the current version, the
+trial package and machine-bound trial license can be provided after contact.
+
+## What It Can Help With
 
 Many Marc users lose time not only on theory, but on repeated and fragile
 workflow details:
 
-- connecting Codex/AI to Marc/Mentat in a controlled way;
-- checking local Marc/Mentat environment configuration;
-- organizing model inspection traces;
-- recording project operations and diagnostic steps;
-- collecting solver failure clues from logs and input files;
-- assisting selected `.t16` result extraction and summaries;
-- keeping a clearer evidence trail for research or engineering work.
+- connect Codex to a local Marc/Mentat workflow through a controlled MCP server;
+- check whether the local Marc/Mentat environment is visible to the assistant;
+- confirm that Codex is using the delivered closed package, not an old or wrong path;
+- organize model-inspection clues such as sets, links, boundaries, loads, and materials;
+- collect solver-failure clues from logs, input files, and exit numbers;
+- assist selected `.t16` result extraction and summary workflows;
+- keep a clearer evidence trail for thesis, research, and engineering projects;
+- provide a structured feedback path when you need support or diagnosis.
 
 The goal is to make these local workflows more traceable, repeatable, and easier
 to discuss with AI assistance.
+
+## Typical Pain Points
+
+You may want to try it if you often think:
+
+- "I want Codex to help with Marc, but I need a controlled local connection."
+- "I keep checking the same Mentat model details again and again."
+- "Solver failure clues are scattered across logs and input files."
+- "I need a cleaner record of what was checked, changed, and extracted."
+- "I want post-processing and diagnosis to be less manual."
 
 ## Who It Is For
 
