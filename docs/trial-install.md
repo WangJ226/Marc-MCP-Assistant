@@ -18,12 +18,20 @@
 -> 运行状态检查
 -> 获取机器信息
 -> 向作者申请 license
--> 放入或导入 license
+-> 把 license.json 放到 exe 同级目录下的 licenses 文件夹
 -> 再次运行 license 检查
 -> 开始有限工作流测试
 ```
 
 建议先使用公开示例模型、备份模型或非关键模型测试。
+
+license 的典型位置是：
+
+```text
+<包含 exe 的文件夹>\licenses\license.json
+```
+
+注意：如果 zip 解压后出现同名嵌套目录，请使用真正包含 `.exe` 的那一层目录，不要使用外层解压目录。
 
 ## 后续 GitHub Releases 流程
 
@@ -34,7 +42,7 @@
 -> 解压并运行状态检查
 -> 发送机器信息和试用申请
 -> 获取 license
--> 导入 license 后试用
+-> 放到 <包含 exe 的文件夹>\licenses\license.json 后试用
 ```
 
 没有有效 license 时，包只能完成有限检查，不能开放核心功能。
