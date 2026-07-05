@@ -1,50 +1,57 @@
 # FAQ
 
-## 这是开源项目吗？
+## Is This An Open-Source Project?
 
-不是。公开仓库用于展示、说明、试用申请和后续下载入口。核心实现、license 系统和内部规则库是闭源的。
+No. This public repository is for product introduction, documentation, trial
+application, privacy notes, and future download entry. Core implementation,
+license tooling, and private rule libraries are closed-source.
 
-## GitHub 上会放什么？
+## Is This An Official MSC/Hexagon Product?
 
-当前先放公开说明、痛点说明、试用申请、隐私说明和演示计划。闭源包经过灰度测试后，后续可能作为 GitHub Releases 资产提供下载。
+No. This is an independently developed workflow assistant for Marc/Mentat users.
 
-## 下载闭源包后就能直接用吗？
+## Is A Public Download Available?
 
-不能。闭源包需要有效本地 license。没有 license 时，只能做有限状态检查或机器信息检查，不能长期使用核心功能。
+Not yet. At the current private beta stage, the Windows package is provided by
+request only.
 
-## 为什么不直接公开核心 MCP 代码？
+## Can I Use It Without A License?
 
-这个项目的价值不只是“连接 Codex 和 Marc”，还包括受控操作流程、打包授权、诊断规则、后处理经验、支持流程和持续迭代。核心能力会通过闭源包持续维护。
+No. The package requires a valid local trial or paid license for core workflows.
+Without a license, it can only provide limited status information.
 
-## 支持 macOS 吗？
+## Why Not Publish The Core MCP Code?
 
-当前不优先支持。Marc/Mentat 用户主要在 Windows 环境使用，第一阶段只做 Windows 闭源包。
+The value is not only the connection between Codex and Marc. It also includes
+controlled workflow design, packaging, licensing, diagnostic rules, support
+process, and continuous iteration from real user feedback.
 
-## 它会替代 Marc/Mentat 吗？
+## Does It Replace Marc/Mentat?
 
-不会。你仍然需要本地 MSC Marc/Mentat 安装和有效授权。这个工具只是辅助本地 Marc 工作流。
+No. You still need your own local MSC Marc/Mentat installation and valid
+Marc/Mentat license.
 
-## 它能保证模型收敛吗？
+## Can It Guarantee Model Convergence?
 
-不能。它可以帮助整理检查线索、诊断信息和工作流记录，但模型正确性和工程判断仍然由用户负责。
+No. It can help organize checks, diagnostic clues, workflow traces, and selected
+post-processing tasks, but model correctness and engineering judgment remain the
+user's responsibility.
 
-## 会上传我的模型吗？
+## Will It Upload My Model Files?
 
-默认不会。早期以本地使用为主。如果需要支持，你可以选择发送截图、日志摘录或脱敏资料。完整模型文件只在你明确同意后再讨论。
+The early workflow is local-first. For support, you may choose to send
+screenshots, log excerpts, or anonymized information. Full model files should
+only be discussed after explicit agreement.
 
-## 适合科研用户还是工程用户？
+## Does It Support macOS?
 
-两类都可能适合。当前更适合有明确 Marc/Mentat 痛点的人，例如求解失败、重复检查、后处理整理、希望探索 Codex/AI 辅助 Marc 工作流。
+Not as a priority. The first package line is Windows-only.
 
-## 怎么申请试用？
+## How Do I Apply?
 
-发送 Marc 版本、Windows 版本、研究/工程方向和当前问题到：
+Send your Marc/Mentat version, Windows version, field, and current problem to:
 
 - Email: `1309224565@qq.com`
 - WeChat: `18169419809`
 
-加微信请备注 `Marc MCP Trial`。
-
-## 这是 MSC/Hexagon 官方产品吗？
-
-不是。这是独立开发的 Marc/Mentat 工作流辅助工具。
+When adding WeChat, write `Marc MCP Trial`.

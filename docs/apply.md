@@ -1,61 +1,69 @@
-# 试用申请
+# Apply For Private Trial
 
-当前试用采用人工审核和本地 license 授权。请先联系作者，不需要一开始发送完整模型文件。
+Current trial access is reviewed manually. Please contact the author before
+sending any complete model files or confidential project data.
 
-## 联系方式
+## Contact
 
-Email: `1309224565@qq.com`
+- Email: `1309224565@qq.com`
+- WeChat: `18169419809`
 
-WeChat: `18169419809`
-
-加微信请备注：
+When adding WeChat, please write:
 
 ```text
 Marc MCP Trial
 ```
 
-## 首次联系模板
+## First Message Template
 
-可以直接复制下面内容：
+You can copy this:
 
 ```text
-昵称/姓名：
-联系方式：
-Marc 版本：
-Windows 版本：
-研究或工程方向：
-当前最想解决的问题：
-是否有求解报错/exit number：
-是否方便提供截图或日志摘录：
-希望试用的功能：
+Name or nickname:
+Contact:
+Marc/Mentat version:
+Windows version:
+Research or engineering field:
+Current problem:
+Solver exit number, if any:
+Can you share screenshots or log excerpts privately:
+Need: trial / one-time diagnosis / monthly use / project support
 ```
 
-## 请先不要发送
+## Please Do Not Send First
 
-- 完整模型文件；
-- 公司或课题组敏感项目资料；
-- 未脱敏的路径、客户名称、合同信息；
-- Marc/Mentat 授权文件。
+Please do not send these in the first public contact:
 
-如果后续需要诊断，可以先发送截图、日志摘录或脱敏后的错误信息。完整模型文件只在你明确同意后再单独讨论。
+- full model files;
+- confidential company, lab, or project data;
+- unredacted local paths, customer names, contract details, or server details;
+- Marc/Mentat license files.
 
-## 通过后会收到什么
+If later diagnosis requires more information, screenshots, short log excerpts,
+or anonymized error messages are preferred first. Full model files should only be
+discussed after explicit agreement.
 
-如果你的场景适合当前版本，可能会收到：
+## What You May Receive
 
-- Windows 闭源包；
-- 本地试用 license；
-- 简短安装和检查说明；
-- 需要反馈的问题模板。
+If your use case fits the current private beta, you may receive:
 
-通常第一步会先确认：
+- Windows closed-source trial package;
+- machine-bound trial license;
+- short setup instructions;
+- Codex configuration prompt;
+- feedback template.
+
+The first check usually confirms:
 
 ```text
 package status
 license status
-Marc/Mentat local environment
+local Marc/Mentat environment
+Codex MCP connection
 ```
 
-## 试用边界
+## Trial Boundary
 
-试用 license 可能限制有效时间、机器、功能范围、运行次数或支持版本。试用目的是确认这个工具能否帮助你的真实 Marc 工作流，不是无限公开版本。
+Trial licenses may be limited by time, machine, feature set, package version, or
+support scope. The goal is to verify whether the assistant helps your real Marc
+workflow.

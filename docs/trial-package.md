@@ -1,49 +1,57 @@
-# 闭源包说明
+# Closed Package Notes
 
-Marc MCP Assistant 的试用包和付费包都是闭源交付。公开仓库只放说明、演示和试用入口，不放核心源码。
+Marc MCP Assistant trial and paid packages are delivered as closed-source
+Windows packages. The public GitHub repository is only for product introduction,
+documentation, trial application, privacy notes, and future download entry.
 
-## Windows 优先
+## Windows First
 
-当前只考虑 Windows 版本，因为 Marc/Mentat 用户的主要工作环境通常是 Windows。
+The first delivery target is Windows because most Marc/Mentat users run their
+daily workflow on Windows.
 
-暂不计划优先支持 macOS。
+macOS is not a priority at this stage.
 
-## 包的定位
+## Package Purpose
 
-闭源包用于：
+The closed package is intended to:
 
-- 本地 Marc/Mentat 环境检查；
-- 生成或显示机器信息；
-- 验证本地 license；
-- 启动受控 MCP 工作流；
-- 辅助 Marc/Mentat 操作、诊断和后处理。
+- check local Marc/Mentat environment;
+- show machine information needed for trial licensing;
+- verify a local license file;
+- start a controlled MCP workflow for Codex;
+- assist selected Marc/Mentat inspection, diagnosis, and post-processing tasks.
 
-闭源包不包含：
+## What Is Not Included
 
-- Marc/Mentat 软件本体；
-- Marc/Mentat 授权；
-- 核心源码；
-- 私有规则库完整内容；
-- 无限使用权；
-- 转售或二次分发权。
+The package does not include:
 
-## 授权方式
+- MSC Marc/Mentat software;
+- Marc/Mentat license;
+- core source code;
+- private rule libraries;
+- unlimited use rights;
+- resale or redistribution rights.
 
-试用和付费使用都需要本地 license。license 可能绑定：
+## License
 
-- 用户或项目；
-- 机器；
-- 有效期；
-- 功能组；
-- 版本；
-- 运行次数或使用范围。
+Trial and paid use require a local license file. A license may be bound to:
 
-## 当前分发方式
+- user or project;
+- machine;
+- expiry time;
+- feature group;
+- package version;
+- support scope.
 
-灰度阶段：通过联系作者人工发放。
+## Current Delivery Method
 
-稳定后：可能通过 GitHub Releases 提供 Windows 闭源包下载。用户下载后仍需联系作者申请试用或付费 license。
+Private beta: the package is sent manually after contact and review.
 
-## 使用前提醒
+Future stable stage: a Windows package may be published through GitHub Releases,
+but users will still need to contact the author for a trial or paid license.
 
-请先备份模型文件。任何自动化或半自动化流程都应该先在备份模型、示例模型或非关键项目上验证。
+## Before Testing
+
+Back up your model files first. Any automation or semi-automation should be
+tested on example, backup, or non-critical models before being used in important
+projects.
