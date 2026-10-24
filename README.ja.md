@@ -4,7 +4,7 @@
 
 Windows 上の Marc/Mentat を WorkBuddy、Codex、Claude Desktop から MCP 経由で操作する独立開発アプリです。ソースコードは非公開で、ここでは説明資料と確認済みの実行ファイルを公開します。
 
-現在 Personal 1.2.0 は開発候補版です。正式オンライン版は独自ドメイン、HTTPS、最終クライアント検証の完了後に Releases へ公開します。
+現在 Personal 1.2.1 は開発候補版です。正式オンライン版は独自ドメイン、HTTPS、最終クライアント検証の完了後に Releases へ公開します。
 
 ## 利用手順
 

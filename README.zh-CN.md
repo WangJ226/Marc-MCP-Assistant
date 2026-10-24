@@ -6,7 +6,7 @@
 
 ## 当前状态
 
-当前开发候选为 Personal 1.2.0。正式联网安装包将在域名、HTTPS 与正式客户端验收完成后发布到 [Releases](https://github.com/WangJ226/Marc-MCP-Assistant/releases)。带测试公钥的内部包用于开发验收。
+当前开发候选为 Personal 1.2.1。正式联网安装包将在域名、HTTPS 与正式客户端验收完成后发布到 [Releases](https://github.com/WangJ226/Marc-MCP-Assistant/releases)。带测试公钥的内部包用于开发验收。
 
 ## 使用条件与能力
 
