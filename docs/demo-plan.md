@@ -1,43 +1,5 @@
-# Public Demo Plan
+# 演示计划
 
-Public demo media should show value without exposing implementation or private
-customer data.
+先展示土木和机械各一个简洁场景，说明 AI 能完成的检查、建模协助或后处理。演示中区分软件自检、真实客户端调用和真实求解证据。
 
-## Demo Topics
-
-1. Package starts in locked mode and shows contact path.
-2. Licensed package passes `status` and `package-check`.
-3. Codex connects to the guarded MCP server.
-4. Marc environment check returns structured evidence.
-5. A sanitized demo workflow creates or inspects a simple model.
-6. A sanitized post-processing example extracts a result curve.
-
-## Do Not Show
-
-- private signing keys;
-- customer license files;
-- package source files;
-- customer models;
-- real project paths;
-- license server addresses;
-- paid package download links;
-- internal strategy documents.
-
-## Safe Visuals
-
-- simple synthetic model;
-- cropped terminal output with paths blurred;
-- generated demo `.t16` or official tutorial-style example only if allowed;
-- public README and trial application page;
-- before/after workflow diagram.
-
-## Minimum Demo Script
-
-```text
-1. Explain Marc user pain point.
-2. Show package-check passes.
-3. Show Codex sees Marc MCP tools.
-4. Run one safe demo command.
-5. Show generated evidence/result.
-6. End with trial application contact.
-```
+[返回产品说明](../README.zh-CN.md)
