@@ -6,7 +6,7 @@
 
 ## 当前状态
 
-当前在线候选为 Personal 1.2.1。HTTPS 激活、刷新、单机限制和停用已通过实际安装程序验收；完成真实 AI 客户端验收后发布到 [Releases](https://github.com/WangJ226/Marc-MCP-Assistant/releases)。带测试公钥的内部包用于开发验收。
+当前在线候选为 Personal 1.2.2。HTTPS 激活、刷新、单机限制和停用已通过实际安装程序验收；完成真实 AI 客户端验收后发布到 [Releases](https://github.com/WangJ226/Marc-MCP-Assistant/releases)。带测试公钥的内部包用于开发验收。
 
 ## 使用条件与能力
 

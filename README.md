@@ -6,7 +6,7 @@ A Windows application connecting WorkBuddy, Codex and Claude Desktop to your loc
 
 ## Release status
 
-Personal 1.2.1 is an online release candidate. HTTPS activation, refresh, device limits and revocation have passed packaged-program acceptance. Real AI-client acceptance remains before public release. Internal test-key packages are development artifacts. See [Releases](https://github.com/WangJ226/Marc-MCP-Assistant/releases) for published builds.
+Personal 1.2.2 is an online release candidate. HTTPS activation, refresh, device limits and revocation have passed packaged-program acceptance. Real AI-client acceptance remains before public release. Internal test-key packages are development artifacts. See [Releases](https://github.com/WangJ226/Marc-MCP-Assistant/releases) for published builds.
 
 ## Workflow
 
